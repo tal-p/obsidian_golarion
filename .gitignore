@@ -1,0 +1,39 @@
+# Obsidian local workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace
+.obsidian/cache/
+
+# Obsidian runtime/cache files
+.obsidian/plugins/*/.hotreload
+.obsidian/plugins/*/node_modules/
+.obsidian/plugins/*/dist/
+.obsidian/plugins/*/.git/
+.obsidian/plugins/*/.cache/
+
+# Local Obsidian trash
+.trash/
+.Trash/
+
+# Local Codex/agent scratch state
+.codex/
+.agents/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
