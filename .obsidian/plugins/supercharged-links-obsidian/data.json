@@ -1,0 +1,149 @@
+{
+  "targetAttributes": [
+    "type"
+  ],
+  "targetTags": false,
+  "getFromInlineField": false,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "enableBases": true,
+  "selectors": [
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "character",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "a14f-9c20",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "organization",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "b6e2-742a",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "nation",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "99c3-ed89",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "region",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "3e8a-6d12",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "settlement",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "c2b8-13ae",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "site",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "d7a5-29f0",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "item",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "e4c1-6b83",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "event",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "f8d2-45aa",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "source",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "0a91-b3c7",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "map",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "1f6e-88d4",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "timeline",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "2c73-f5a9",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    }
+  ]
+}

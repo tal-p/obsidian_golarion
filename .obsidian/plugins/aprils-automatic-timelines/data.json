@@ -1,0 +1,84 @@
+{
+  "dateDisplayFormat": "{day} {month} {year} AR",
+  "dateParserGroupPriority": "year,month,day",
+  "dateParserRegex": "(?<year>-?[0-9]*)-(?<month>-?[0-9]*)-(?<day>-?[0-9]*)",
+  "eventRenderToggleKey": "aat-render-enabled",
+  "inlineEventEndOfBodyMarker": "%%aat-event-end-of-body%%",
+  "markdownBlockTagsToFindSeparator": ",",
+  "metadataKeyEventBodyOverride": "aat-event-body",
+  "metadataKeyEventEndDate": "aat-event-end-date",
+  "metadataKeyEventPictureOverride": "image",
+  "metadataKeyEventStartDate": "aat-event-start-date",
+  "metadataKeyEventTimelineTag": "timelines",
+  "metadataKeyEventTitleOverride": "aat-event-title",
+  "noteInlineEventKey": "aat-inline-event",
+  "ignoreLineCommentToken": "aat-ignore-line",
+  "applyAdditonalConditionFormatting": true,
+  "lookForCalendariumSpanEvents": false,
+  "lookForInlineEventsInNotes": true,
+  "lookForTagsForTimeline": false,
+  "stylizeDateInline": true,
+  "bodyFontSize": -1,
+  "dateFontSize": -1,
+  "titleFontSize": -1,
+  "dateTokenConfiguration": [
+    {
+      "minLeght": 4,
+      "name": "year",
+      "type": "NUMBER",
+      "displayWhenZero": true,
+      "formatting": [],
+      "hideSign": false
+    },
+    {
+      "name": "month",
+      "type": "STRING",
+      "dictionary": [
+        "Invalid",
+        "Abadius",
+        "Calistril",
+        "Pharast",
+        "Gozran",
+        "Desnus",
+        "Sarenith",
+        "Erastus",
+        "Arodus",
+        "Rova",
+        "Lamashan",
+        "Neth",
+        "Kuthona"
+      ],
+      "formatting": [
+        {
+          "evaluations": [
+            {
+              "condition": "EQUAL",
+              "value": 0
+            }
+          ],
+          "conditionsAreExclusive": true,
+          "format": ""
+        }
+      ]
+    },
+    {
+      "minLeght": 2,
+      "name": "day",
+      "type": "NUMBER",
+      "displayWhenZero": true,
+      "formatting": [
+        {
+          "evaluations": [
+            {
+              "condition": "EQUAL",
+              "value": 0
+            }
+          ],
+          "conditionsAreExclusive": true,
+          "format": ""
+        }
+      ],
+      "hideSign": false
+    }
+  ]
+}

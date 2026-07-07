@@ -1,0 +1,13 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false,
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "propertiesInDocument": "visible",
+  "showLineNumber": false,
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "showUnsupportedFiles": true,
+  "deleteUnlinkedAttachments": "ask"
+}

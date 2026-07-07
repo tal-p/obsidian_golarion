@@ -1,0 +1,180 @@
+/* Pathfinder profile callout. */
+.callout[data-callout="pf-profile"] {
+  --callout-color: 142, 30, 42;
+  --callout-icon: none;
+  background: color-mix(in srgb, var(--background-secondary-alt) 94%, white 6%);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+  padding: 0;
+}
+
+.callout[data-callout="pf-profile"] .callout-title {
+  background: color-mix(in srgb, var(--background-primary-alt) 92%, black 8%);
+  border-bottom: 6px solid rgba(var(--callout-color), 0.75);
+  color: var(--text-normal);
+  justify-content: center;
+  padding: 6px 12px 5px;
+  text-align: center;
+}
+
+.callout[data-callout="pf-profile"] .callout-icon {
+  display: none;
+}
+
+.callout[data-callout="pf-profile"] .callout-title-inner {
+  font-family: var(--h3-font);
+  font-size: 1.15em;
+  font-weight: 700;
+}
+
+.callout[data-callout="pf-profile"] .callout-content {
+  padding: 0;
+}
+
+.callout[data-callout="pf-profile"] table {
+  margin: 0;
+  width: 100%;
+}
+
+.callout[data-callout="pf-profile"] table thead {
+  display: none;
+}
+
+.callout[data-callout="pf-profile"] table tr {
+  border: 0;
+}
+
+.callout[data-callout="pf-profile"] table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.callout[data-callout="pf-profile"] table td {
+  border: 0;
+  padding: 5px 10px;
+}
+
+.callout[data-callout="pf-profile"] table td:first-child {
+  color: var(--text-normal);
+  font-weight: 700;
+  width: 20%;
+}
+
+/* Float generated profile views as compact right-side infoboxes. */
+.markdown-rendered .block-language-dataviewjs:has(.callout[data-callout="pf-profile"]) {
+  clear: right;
+  float: right;
+  margin: 0 0 1rem 1.25rem;
+  max-width: min(46%, 25rem);
+  min-width: 19rem;
+  position: relative;
+  z-index: 1;
+}
+
+.markdown-rendered .block-language-dataviewjs:has(.callout[data-callout="pf-profile"]) .callout[data-callout="pf-profile"] {
+  margin: 0;
+  width: 100%;
+}
+
+.markdown-rendered .block-language-dataviewjs:has(.callout[data-callout="pf-profile"]) .pf-profile-image {
+  background: color-mix(in srgb, var(--background-secondary-alt) 94%, white 6%);
+  border: 1px solid var(--background-modifier-border);
+  border-bottom: 0;
+  border-radius: 2px 2px 0 0;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.markdown-rendered .block-language-dataviewjs:has(.callout[data-callout="pf-profile"]) .pf-profile-image p {
+  margin: 0;
+}
+
+.markdown-rendered .block-language-dataviewjs:has(.callout[data-callout="pf-profile"]) .pf-profile-image .image-embed,
+.markdown-rendered .block-language-dataviewjs:has(.callout[data-callout="pf-profile"]) .pf-profile-image img {
+  display: block;
+}
+
+.markdown-rendered .block-language-dataviewjs:has(.callout[data-callout="pf-profile"]) .pf-profile-image .image-embed {
+  max-width: none;
+  width: 100%;
+}
+
+.markdown-rendered .block-language-dataviewjs:has(.callout[data-callout="pf-profile"]) .pf-profile-image img {
+  aspect-ratio: auto;
+  height: auto !important;
+  max-height: 18rem;
+  max-width: none;
+  object-fit: contain;
+  object-position: center;
+  width: 100% !important;
+}
+
+.markdown-rendered .block-language-dataviewjs:has(.callout[data-callout="pf-profile"]) .pf-profile-image + .callout[data-callout="pf-profile"] {
+  border-radius: 0 0 2px 2px;
+}
+
+@media (max-width: 800px) {
+  .markdown-rendered .block-language-dataviewjs:has(.callout[data-callout="pf-profile"]) {
+    clear: both;
+    float: none;
+    margin: 0 0 1rem;
+    max-width: none;
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+/* Hide April's Automatic Timelines image slots; inline events can misread wiki links as images. */
+.aat-card > img.aat-card-image {
+  display: none !important;
+}
+
+a.internal-link.aat-card.aat-card-has-image {
+  grid-template-columns: 1fr !important;
+}
+
+/* Generated relationship navigation. */
+.markdown-rendered details.pf-related-notes {
+  background: color-mix(in srgb, var(--background-secondary) 82%, var(--background-primary) 18%);
+  border-top: 1px solid var(--background-modifier-border);
+  margin-top: 1.5rem;
+  padding: 0.65rem 0 0;
+}
+
+.markdown-rendered details.pf-related-notes > summary {
+  color: color-mix(in srgb, var(--link-color) 78%, var(--text-muted) 22%);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.markdown-rendered details.pf-related-notes > summary:hover {
+  color: var(--link-color-hover);
+}
+
+.markdown-rendered details.pf-related-notes details.pf-nav-table {
+  margin: 0.55rem 0 0;
+}
+
+.markdown-rendered details.pf-related-notes details.pf-nav-table > summary {
+  color: var(--text-muted);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.markdown-rendered details.pf-related-notes table {
+  margin-top: 0.35rem;
+  width: 100%;
+}
+
+.markdown-rendered details.pf-related-notes table th {
+  background: color-mix(in srgb, rgb(142, 30, 42) 62%, var(--background-secondary) 38%);
+  color: var(--text-on-accent);
+}
+
+/* Keep unresolved wiki links legible on the dark ITS background. */
+.theme-dark {
+  --link-unresolved-color: #8fb6e8;
+  --link-unresolved-opacity: 1;
+}

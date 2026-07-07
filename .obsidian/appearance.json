@@ -1,0 +1,10 @@
+{
+  "cssTheme": "ITS Theme",
+  "theme": "system",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "pathfinder-ui"
+  ]
+}

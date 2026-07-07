@@ -1,0 +1,51 @@
+{
+  "size": {
+    "w": 1256,
+    "h": 1631
+  },
+  "layers": [
+    {
+      "id": "default",
+      "name": "Default",
+      "visible": true,
+      "locked": false
+    }
+  ],
+  "markers": [
+    {
+      "type": "pin",
+      "id": "marker_pmbucb",
+      "x": 0.5769129570574407,
+      "y": 0.39186137849285746,
+      "layer": "default",
+      "link": "Isger",
+      "iconKey": "star",
+      "tooltip": "",
+      "scaleLikeSticker": true,
+      "sizeOverride": 16
+    }
+  ],
+  "bases": [
+    {
+      "path": "Maps/Assets/Inner Sea World Map.webp"
+    }
+  ],
+  "overlays": [],
+  "activeBase": "Maps/Assets/Inner Sea World Map.webp",
+  "measurement": {
+    "scales": {},
+    "customUnitPxPerUnit": {},
+    "travelTimePresetIds": [],
+    "travelDaysEnabled": false,
+    "displayUnit": "km"
+  },
+  "pinSizeOverrides": {},
+  "grids": [],
+  "panClamp": true,
+  "drawLayers": [],
+  "drawings": [],
+  "secondScreen": {
+    "showGrids": true
+  },
+  "textLayers": []
+}

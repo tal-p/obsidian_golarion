@@ -1,0 +1,51 @@
+{
+  "size": {
+    "w": 997,
+    "h": 1021
+  },
+  "layers": [
+    {
+      "id": "default",
+      "name": "Default",
+      "visible": true,
+      "locked": false
+    }
+  ],
+  "markers": [
+    {
+      "type": "pin",
+      "id": "marker_j04su0",
+      "x": 0.5413793103448276,
+      "y": 0.28282538670674456,
+      "layer": "default",
+      "link": "Elidir",
+      "iconKey": "star",
+      "tooltip": "",
+      "scaleLikeSticker": true,
+      "iconColor": "#000000"
+    }
+  ],
+  "bases": [
+    {
+      "path": "Maps/Regions/isger_map.webp"
+    }
+  ],
+  "overlays": [],
+  "activeBase": "Maps/Regions/isger_map.webp",
+  "measurement": {
+    "scales": {},
+    "customUnitPxPerUnit": {},
+    "travelTimePresetIds": [],
+    "travelDaysEnabled": false,
+    "displayUnit": "km"
+  },
+  "pinSizeOverrides": {},
+  "grids": [],
+  "panClamp": true,
+  "drawLayers": [],
+  "drawings": [],
+  "secondScreen": {
+    "showGrids": true
+  },
+  "textLayers": []
+}

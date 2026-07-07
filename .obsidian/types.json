@@ -1,0 +1,22 @@
+{
+  "types": {
+    "type": "text",
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "religions": "multitext",
+    "languages": "multitext",
+    "sources": "multitext",
+    "population": "number",
+    "peoples": "multitext",
+    "campaign_relevance": "multitext",
+    "affiliations": "multitext",
+    "goals": "multitext",
+    "participants": "multitext",
+    "subtype": "text",
+    "deity": "text",
+    "rarity": "text",
+    "level": "number",
+    "item_level": "number"
+  }
+}
