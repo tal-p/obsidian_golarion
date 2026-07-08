@@ -11,6 +11,9 @@
 .obsidian/plugins/*/.git/
 .obsidian/plugins/*/.cache/
 
+# Plugin SVGs
+zz_ZoomMap/SVGs/
+
 # Local Obsidian trash
 .trash/
 .Trash/
