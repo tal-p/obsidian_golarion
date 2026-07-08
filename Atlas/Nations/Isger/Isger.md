@@ -62,6 +62,7 @@ In 2133 AR, Taldor's Seventh Army of Exploration defeated the indigenous Isgeri 
 aat-event-start-date: "2133-0-0"
 aat-render-enabled: true
 timelines: [events, isger]
+image: none
 aat-event-title: Isger Founded
 aat-event-body: Taldor's Seventh Army of Exploration defeats the indigenous Isgeri and founds Isger as a Taldan province.
 %%
@@ -70,6 +71,7 @@ aat-event-body: Taldor's Seventh Army of Exploration defeats the indigenous Isge
 aat-event-start-date: "4081-0-0"
 aat-render-enabled: true
 timelines: [events, isger]
+image: none
 aat-event-title: Isger Annexed by Cheliax
 aat-event-body: Cheliax declares independence from Taldor in the Even-Tongued Conquest, annexing Isger as a Chelaxian vassal state.
 %%
@@ -84,6 +86,7 @@ After the war, Isger's army was so badly damaged that Hedvend VI ordered his rem
 aat-event-start-date: "4701-0-0"
 aat-render-enabled: true
 timelines: [events, isger]
+image: none
 aat-event-title: Isger's Army Withdraws from the Countryside
 aat-event-body: After the [[Goblinblood Wars]], [[Hedvend VI]] orders the depleted [[Isgeri Army]] to focus on vital trade routes, leaving much of Isger's countryside to defend itself.
 %%

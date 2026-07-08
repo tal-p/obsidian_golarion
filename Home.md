@@ -3,7 +3,7 @@ This vault is a local Pathfinder reference wiki for Golarion.
 ## Start Here
 
 - [[Atlas/Atlas|Atlas]]
-	- [[Maps/Maps|Maps]]
+	- [[Maps|Maps]]
 - [[Lore/Lore|Lore]]
 - [[Characters/Characters|Characters]]
 - [[Organizations/Organizations|Organizations]]

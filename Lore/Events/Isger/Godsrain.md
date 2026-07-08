@@ -1,5 +1,6 @@
 ---
 type: event
+image: none
 aat-event-start-date: "4724-11-0"
 aat-render-enabled: true
 timelines: [events, isger]

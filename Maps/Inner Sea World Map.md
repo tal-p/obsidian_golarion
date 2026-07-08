@@ -9,6 +9,8 @@ status: draft
 # `= this.file.name`
 
 ```zoommap
+image: "Assets/Maps/Inner Sea World Map.webp"
+markers: "Assets/Maps/Inner Sea World Map.webp.markers.json"
 height: 1250
 width: 100%
 minZoom: 75%
@@ -18,9 +20,6 @@ resizable: true
 resizeHandle: native
 render: canvas
 storage: json
-imageBases:
-  - path: Maps/Assets/Inner Sea World Map.webp
-markers: Maps/Assets/Inner Sea World Map.webp.markers.json
 markerLayers:
   - Default
 wrap: true

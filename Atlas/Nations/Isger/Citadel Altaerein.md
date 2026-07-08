@@ -1,5 +1,6 @@
 ---
 type: site
+image:
 subtype: fortress
 parent: "[[Breachill]]"
 leader:
@@ -26,6 +27,7 @@ The [[Order of the Nail]] was founded in 4638 AR and built the citadel near Brea
 aat-event-start-date: "4638-0-0"
 aat-render-enabled: true
 timelines: [events, isger, breachill, citadel-altaerein]
+image: none
 aat-event-title: Citadel Altaerein Constructed
 aat-event-body: The newly founded [[Order of the Nail]] constructs Citadel Altaerein near [[Breachill]].
 %%
@@ -35,6 +37,7 @@ aat-event-start-date: "4711-0-0"
 aat-event-end-date: "4717-0-0"
 aat-render-enabled: true
 timelines: [events, isger, breachill, citadel-altaerein]
+image: none
 aat-event-title: Citadel Altaerein Lies Abandoned
 aat-event-body: Citadel Altaerein is fully abandoned after decades of dwindling [[Hellknights|Hellknight]] presence.
 %%
@@ -46,6 +49,7 @@ aat-event-start-date: "4717-0-0"
 aat-event-end-date: "4719-0-0"
 aat-render-enabled: true
 timelines: [events, isger, breachill, citadel-altaerein]
+image: none
 aat-event-title: Bumblebrashers Hold Citadel Altaerein
 aat-event-body: The Bumblebrasher goblins move into Citadel Altaerein's lower and basement levels.
 %%
@@ -54,6 +58,7 @@ aat-event-body: The Bumblebrasher goblins move into Citadel Altaerein's lower an
 aat-event-start-date: "4719-0-0"
 aat-render-enabled: true
 timelines: [events, isger, breachill, citadel-altaerein]
+image: none
 aat-event-title: Citadel Altaerein Gifted to Breachill
 aat-event-body: Heroes clear Citadel Altaerein of its threats and bequeath the fortress to the citizens of [[Breachill]].
 %%
@@ -67,6 +72,7 @@ aat-event-start-date: "4725-8-0"
 aat-event-end-date: "4725-9-0"
 aat-render-enabled: true
 timelines: [events, isger, breachill, citadel-altaerein]
+image: none
 aat-event-title: Order of the Rack Holds Citadel Altaerein
 aat-event-body: Chelaxian supplies allow the [[Order of the Rack]] to hold and fortify Citadel Altaerein until the [[Battle of Hellknight Hill]].
 %%

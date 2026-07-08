@@ -126,15 +126,6 @@
   }
 }
 
-/* Hide April's Automatic Timelines image slots; inline events can misread wiki links as images. */
-.aat-card > img.aat-card-image {
-  display: none !important;
-}
-
-a.internal-link.aat-card.aat-card-has-image {
-  grid-template-columns: 1fr !important;
-}
-
 /* Generated relationship navigation. */
 .markdown-rendered details.pf-related-notes {
   background: color-mix(in srgb, var(--background-secondary) 82%, var(--background-primary) 18%);

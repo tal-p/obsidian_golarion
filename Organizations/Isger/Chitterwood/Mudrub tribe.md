@@ -1,6 +1,6 @@
 ---
 type: organization
-image:
+image: "[[mudrub.webp]]"
 subtype: tribe
 location: "[[Frog Bog]]"
 leaders: []

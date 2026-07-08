@@ -26,6 +26,7 @@ Because Gillamoor had a tragic past and a large graveyard, [[Illcayna Alonnor]] 
 aat-event-start-date: "4702-0-0"
 aat-render-enabled: true
 timelines: [events, isger, illcayna]
+image: none
 aat-event-title: Gillamoor Falls to Illcayna's Curse
 aat-event-body: "[[Illcayna Alonnor]]'s curse destroys Gillamoor, transforming its dead into ravenous undead thralls."
 %%

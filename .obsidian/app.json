@@ -9,5 +9,6 @@
   "defaultViewMode": "preview",
   "livePreview": false,
   "showUnsupportedFiles": true,
-  "deleteUnlinkedAttachments": "ask"
+  "deleteUnlinkedAttachments": "ask",
+  "attachmentFolderPath": "Assets"
 }

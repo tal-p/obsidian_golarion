@@ -1,7 +1,7 @@
 {
   "size": {
-    "w": 1256,
-    "h": 1631
+    "w": 997,
+    "h": 1021
   },
   "layers": [
     {
@@ -14,24 +14,24 @@
   "markers": [
     {
       "type": "pin",
-      "id": "marker_pmbucb",
-      "x": 0.5769129570574407,
-      "y": 0.39186137849285746,
+      "id": "marker_j04su0",
+      "x": 0.5413793103448276,
+      "y": 0.28282538670674456,
       "layer": "default",
-      "link": "Isger",
+      "link": "Elidir",
       "iconKey": "star",
       "tooltip": "",
       "scaleLikeSticker": true,
-      "sizeOverride": 16
+      "iconColor": "#000000"
     }
   ],
   "bases": [
     {
-      "path": "Maps/Assets/Inner Sea World Map.webp"
+      "path": "Assets/Maps/isger_map.webp"
     }
   ],
   "overlays": [],
-  "activeBase": "Maps/Assets/Inner Sea World Map.webp",
+  "activeBase": "Assets/Maps/isger_map.webp",
   "measurement": {
     "scales": {},
     "customUnitPxPerUnit": {},

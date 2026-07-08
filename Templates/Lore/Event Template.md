@@ -1,6 +1,6 @@
 ---
 type: event
-image:
+image: none
 aat-event-start-date:
 aat-event-end-date:
 aat-render-enabled: true

@@ -28,6 +28,7 @@ aat-event-start-date: "4725-1-0"
 aat-event-end-date: "4725-9-0"
 aat-render-enabled: true
 timelines: [events, isger, hellbreakers, breachill]
+image: none
 aat-event-title: Order of the Rack Crackdown in Breachill
 aat-event-body: At [[Hedvend VI]]'s request, loyalist Order of the Rack Hellknights deploy to [[Breachill]] and search for the [[Hellbreakers League]] until the [[Battle of Hellknight Hill]].
 %%

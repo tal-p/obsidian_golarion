@@ -1,5 +1,6 @@
 ---
 type: event
+image: none
 aat-event-start-date: "4725-09-0"
 aat-render-enabled: true
 timelines:
@@ -37,6 +38,7 @@ In Sarenith 4725 AR, Andoran sent diplomats led by semiretired General Reginald 
 aat-event-start-date: "4725-6-0"
 aat-render-enabled: true
 timelines: [events, isger, hellbreakers, breachill]
+image: none
 aat-event-title: General Cormoth Executed
 aat-event-body: Andoren diplomats led by General Reginald Cormoth arrive in [[Breachill]], and the [[Order of the Rack]] publicly executes Cormoth.
 %%
@@ -45,6 +47,7 @@ aat-event-body: Andoren diplomats led by General Reginald Cormoth arrive in [[Br
 aat-event-start-date: "4725-7-0"
 aat-render-enabled: true
 timelines: [events, isger, hellbreakers, breachill]
+image: none
 aat-event-title: Andoran Sends the Steel Falcons
 aat-event-body: An emergency People's Council meets in Almas, and Eagle Knights travel to [[Isger]] ahead of the Battle of Hellknight Hill.
 %%

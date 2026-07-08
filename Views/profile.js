@@ -16,6 +16,7 @@ const imageMarkdown = (value) => {
   const path = raw?.path ? raw.path : String(raw).trim();
 
   if (!path) return null;
+  if (path.toLowerCase() === "none") return null;
   if (path.startsWith("![") || path.startsWith("![[") || path.startsWith("<img")) return path;
   if (path.startsWith("[[")) return `!${path}`;
   if (/^https?:\/\//i.test(path)) return `![Profile image](${path})`;

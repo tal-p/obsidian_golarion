@@ -1,5 +1,6 @@
 ---
 type: organization
+image: "[[hellbreakers.webp]]"
 subtype: political
 location: "[[Isger]]"
 leaders:
@@ -32,6 +33,7 @@ The League's cause surged when it discovered a [[Warshard]], a fragment of the d
 aat-event-start-date: "4724-8-0"
 aat-render-enabled: true
 timelines: [events, isger, hellbreakers, breachill, citadel-altaerein]
+image: none
 aat-event-title: Hellbreakers Suspected of Hiding Warshards
 aat-event-body: Isgeri officials suspect the Hellbreakers League is hiding [[Warshard|warshards]] in [[Breachill]] or nearby [[Citadel Altaerein]].
 %%

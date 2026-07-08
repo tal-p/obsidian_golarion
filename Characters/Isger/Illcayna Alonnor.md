@@ -31,6 +31,7 @@ In 4601 AR, Illcayna was still a young priestess of Urgathoa when she fed hersel
 aat-event-start-date: "4601-0-0"
 aat-render-enabled: true
 timelines: [events, isger, illcayna]
+image: [[illcayna-alonnor.webp]]
 aat-event-title: Illcayna Becomes a Daughter of Urgathoa
 aat-event-body: Illcayna Alonnor feeds herself to wights, rises as a daughter of Urgathoa, and turns [[Finder's Gulch]] into an undead stronghold.
 %%

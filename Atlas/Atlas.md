@@ -34,19 +34,24 @@ templater true
 %% Begin Waypoint %%
 - **Nations**
 	- **[[Isger]]**
-		- **Chitterwood**
+		- **[[Chitterwood]]**
 			- [[Barking Caverns]]
 			- [[Burnt Ends]]
 			- [[Frog Bog]]
 			- [[Shrieking Caverns]]
 			- [[Stagfall Caves]]
 			- [[Sunless Tunnels]]
+		- **[[Elidir]]**
+			- [[Chelaxian Quarter]]
+			- [[Conerica Landing]]
+			- [[Isger's Fist]]
+			- [[Kingsthrone Cathedral]]
+			- [[Sweet Embrace]]
+			- [[Xerlidia Park]]
 		- [[Breachill]]
-		- [[Chitterwood]]
 		- [[Citadel Altaerein]]
 		- [[Citadel Dinyar]]
 		- [[Dustpawn]]
-		- [[Elidir]]
 		- [[Fernsby]]
 		- [[Finder's Gulch]]
 		- [[Gillamoor]]
@@ -62,6 +67,5 @@ templater true
 		- [[Umok]]
 		- [[Vordia]]
 		- [[Wolfpoint]]
-	- [[New Nation]]
 
 %% End Waypoint %%

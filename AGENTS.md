@@ -55,19 +55,19 @@ Use April automatic timelines for dated lore that should appear on timeline note
 
 ### Inline Events
 - Use inline April events inside an existing note when the dated item is useful on a timeline but too small for a full event note. Place the block near the prose it summarizes, usually after the paragraph that mentions the date.
-- `aat-event-body` values should use wiki links where it makes sense. However, they should never link to their own note. If starting with a wiki link, wrap the entire value in double quotes to avoid the leading `[[...]]` being treated as YAML syntax.
 - Inline event blocks must use this shape:
-
 ```markdown
 %%aat-inline-event
 aat-event-start-date: "4725-6-0"
 aat-render-enabled: true
 timelines: [example]
+image: none
 aat-event-title: Short Event Title
 aat-event-body: One concise sentence summarizing the timeline-relevant fact about [[example]].
 %%
 ```
-
+- `aat-event-body` values should use wiki links where it makes sense. However, they should never link to their own note. If starting with a wiki link, wrap the entire value in double quotes to avoid the leading `[[...]]` being treated as YAML syntax.
+- `image` should be exactly `none` to not display it in the timeline.
 - Timeline notes use April code blocks such as:
 
 ````markdown

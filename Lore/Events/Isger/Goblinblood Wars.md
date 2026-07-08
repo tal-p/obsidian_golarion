@@ -1,7 +1,8 @@
 ---
 type: event
-aat-event-start-date: 4697-0-0
-aat-event-end-date: 4701-0-0
+image: none
+aat-event-start-date: "4697-0-0"
+aat-event-end-date: "4701-0-0"
 aat-render-enabled: true
 timelines:
   - events
