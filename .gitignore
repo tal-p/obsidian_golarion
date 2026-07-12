@@ -11,6 +11,9 @@
 .obsidian/plugins/*/.git/
 .obsidian/plugins/*/.cache/
 
+# Plugin SVGs
+zz_ZoomMap/SVGs/
+
 # Local Obsidian trash
 .trash/
 .Trash/
@@ -18,6 +21,7 @@
 # Local Codex/agent scratch state
 .codex/
 .agents/
+AGENTS.md
 
 # Operating system metadata
 .DS_Store
