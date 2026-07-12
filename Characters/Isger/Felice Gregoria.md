@@ -1,6 +1,6 @@
 ---
 type: character
-image:
+image: "[[felice-gregoria.webp]]"
 location: "[[Elidir]]"
 descriptor: savvy
 gender: genderfluid
@@ -12,6 +12,7 @@ sources:
   - "[[Hellbreakers]]"
 tags:
   - character
+level: 6
 ---
 
 # `= this.file.name`

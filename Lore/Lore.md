@@ -11,10 +11,11 @@ prompt true
 templater true
 ```
 
-
-## Events
+## Timelines
 
 [[Timelines/Isger Timeline|Isger Timeline]]
+
+## Events
 
 ```aat-vertical
 events

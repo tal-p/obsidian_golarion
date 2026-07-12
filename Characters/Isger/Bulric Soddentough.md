@@ -1,6 +1,6 @@
 ---
 type: character
-image:
+image: "[[bulric-soddentough.webp]]"
 location: "[[Elidir]]"
 descriptor: frazzled
 gender: male
@@ -12,6 +12,7 @@ sources:
   - "[[Hellbreakers]]"
 tags:
   - character
+level: 3
 ---
 
 # `= this.file.name`

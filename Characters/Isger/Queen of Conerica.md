@@ -1,6 +1,6 @@
 ---
 type: character
-image:
+image: "[[queen-of-conerica.webp]]"
 location: "[[Conerica River]]"
 descriptor: avaricious
 gender: female

@@ -13,6 +13,7 @@ sources:
   - "[[Hellbreakers]]"
 tags:
   - character
+level: 6
 ---
 
 # `= this.file.name`

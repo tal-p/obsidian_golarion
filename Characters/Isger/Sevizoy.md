@@ -1,6 +1,6 @@
 ---
 type: character
-image:
+image: "[[sevizoy.webp]]"
 location: "[[Elidir]]"
 descriptor: determined
 gender: male

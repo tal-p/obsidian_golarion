@@ -1,6 +1,6 @@
 ---
 type: character
-image:
+image: "[[dwingini-berylbelt.webp]]"
 location: "[[Elidir]]"
 descriptor: nonchalant
 gender: female

@@ -1,6 +1,7 @@
 ---
 type: organization
 subtype: religious
+image: "[[sister-of-the-golden-erinys.webp]]"
 location: "[[Isger]]"
 leaders:
   - "[[Sister Marcella]]"

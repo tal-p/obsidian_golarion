@@ -1,6 +1,6 @@
 ---
 type: character
-image:
+image: "[[ottschan-rasefel.webp]]"
 location: "[[Elidir]]"
 descriptor: severe
 gender: nonbinary
@@ -12,6 +12,7 @@ sources:
   - "[[Hellbreakers]]"
 tags:
   - character
+level: 2
 ---
 
 # `= this.file.name`

@@ -1,6 +1,6 @@
 ---
 type: character
-image:
+image: "[[adasely-tisandera.webp]]"
 location: "[[Elidir]]"
 descriptor: opportunistic
 gender: female
