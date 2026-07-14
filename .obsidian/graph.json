@@ -1,22 +1,107 @@
 {
-  "collapse-filter": false,
-  "search": "",
+  "collapse-filter": true,
+  "search": "-[\"type\":source] -[\"type\":atlas]",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": false,
-  "colorGroups": [],
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "[\"type\":character]",
+      "color": {
+        "a": 1,
+        "rgb": 14052979
+      }
+    },
+    {
+      "query": "[\"type\":organization]",
+      "color": {
+        "a": 1,
+        "rgb": 12093666
+      }
+    },
+    {
+      "query": "[\"type\":nation]",
+      "color": {
+        "a": 1,
+        "rgb": 11745850
+      }
+    },
+    {
+      "query": "[\"type\":region]",
+      "color": {
+        "a": 1,
+        "rgb": 7311318
+      }
+    },
+    {
+      "query": "[\"type\":settlement]",
+      "color": {
+        "a": 1,
+        "rgb": 5416554
+      }
+    },
+    {
+      "query": "[\"type\":site]",
+      "color": {
+        "a": 1,
+        "rgb": 6138020
+      }
+    },
+    {
+      "query": "[\"type\":item]",
+      "color": {
+        "a": 1,
+        "rgb": 14255677
+      }
+    },
+    {
+      "query": "[\"type\":event]",
+      "color": {
+        "a": 1,
+        "rgb": 14705038
+      }
+    },
+    {
+      "query": "[\"type\":source]",
+      "color": {
+        "a": 1,
+        "rgb": 9214888
+      }
+    },
+    {
+      "query": "[\"type\":map]",
+      "color": {
+        "a": 1,
+        "rgb": 5994646
+      }
+    },
+    {
+      "query": "[\"type\":timeline]",
+      "color": {
+        "a": 1,
+        "rgb": 11770475
+      }
+    },
+    {
+      "query": "[\"type\":deity]",
+      "color": {
+        "a": 1,
+        "rgb": 15120714
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -0.8,
   "nodeSizeMultiplier": 1.00598958333333,
-  "lineSizeMultiplier": 1.00598958333333,
+  "lineSizeMultiplier": 0.59765625,
   "collapse-forces": true,
-  "centerStrength": 0.1953125,
-  "repelStrength": 10.0520833333333,
+  "centerStrength": 0.200520833333333,
+  "repelStrength": 15.0520833333333,
   "linkStrength": 1,
-  "linkDistance": 298,
-  "scale": 0.5087618855792543,
-  "close": true
+  "linkDistance": 300,
+  "scale": 0.2588386562181596,
+  "close": false
 }

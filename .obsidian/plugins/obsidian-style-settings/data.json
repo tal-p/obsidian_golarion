@@ -29,7 +29,7 @@
   "supercharged-links@@b6e2-742a-color": "#B888E2",
   "supercharged-links@@b6e2-742a-weight": "bold",
   "supercharged-links@@b6e2-742a-before": "⚑ ",
-  "supercharged-links@@99c3-ed89-color": "#C9A227",
+  "supercharged-links@@99c3-ed89-color": "#B33A3A",
   "supercharged-links@@99c3-ed89-weight": "bold",
   "supercharged-links@@99c3-ed89-before": "♛ ",
   "supercharged-links@@3e8a-6d12-color": "#6F8FD6",
@@ -43,7 +43,7 @@
   "supercharged-links@@d7a5-29f0-before": "◆ ",
   "supercharged-links@@e4c1-6b83-color": "#D9863D",
   "supercharged-links@@e4c1-6b83-weight": "bold",
-  "supercharged-links@@e4c1-6b83-before": "◈ ",
+  "supercharged-links@@e4c1-6b83-before": "⚿",
   "supercharged-links@@f8d2-45aa-color": "#E0618E",
   "supercharged-links@@f8d2-45aa-weight": "bold",
   "supercharged-links@@f8d2-45aa-before": "⏱ ",
@@ -56,5 +56,8 @@
   "supercharged-links@@2c73-f5a9-color": "#B39A6B",
   "supercharged-links@@2c73-f5a9-weight": "normal",
   "supercharged-links@@2c73-f5a9-before": "↦ ",
+  "supercharged-links@@7c4d-a2f1-color": "#E6B94A",
+  "supercharged-links@@7c4d-a2f1-weight": "bold",
+  "supercharged-links@@7c4d-a2f1-before": "☀ ",
   "ITS@@dataview-table-auto": false
 }

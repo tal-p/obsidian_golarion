@@ -144,6 +144,18 @@
       "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "deity",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "7c4d-a2f1",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
     }
   ]
 }

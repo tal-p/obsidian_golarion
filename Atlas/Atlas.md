@@ -1,3 +1,7 @@
+---
+type: atlas
+---
+
 Geography is the backbone of this wiki. Start location notes here, then link outward to related people, groups, lore, history, and maps.
 
 %% Begin Waypoint %%
