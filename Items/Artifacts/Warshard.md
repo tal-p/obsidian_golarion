@@ -1,5 +1,6 @@
 ---
 type: item
+subtype: divine artifact
 item_level:
 rarity: unique
 sources:

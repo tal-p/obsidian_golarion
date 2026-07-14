@@ -72,30 +72,30 @@ The woods remain dangerous beyond politics. Ghosts and haunts are common where t
 
 ## Key Figures and Factions
 
-- [[Brakknap]]: Goblin elder working to repair relations between goblinoids and humanoids.
-- [[Bulbhead tribe]]: Gourd-helmeted goblins of the Burnt Ends who trade with outsiders and feud with the [[Isgeri Slayers]].
-- [[Cinder Seekers]]: Goblin movement dedicated to preventing future hobgoblin domination through memory, song, and fire.
-- [[Hookback tribe]]: Deep-cavern goblins whose piercings preserve a painful history of survival.
-- [[Mudrub tribe]]: Swamp-dwelling goblins of the eastern Chitterwood who cover themselves in mud and reject written marks.
-- [[People of the Swarm]]: Cavern goblins known for songs and old grudges against hobgoblin commanders.
-- [[Spine Threshers]]: Martial goblin tribe associated with mounted training in the Barking Caverns.
-- [[True Hoard tribe]]: Scavengers, trap makers, alchemists, and inventors who prize anything useful, shiny, or strange.
-- [[Isgeri Slayers]]: Anti-goblin faction that hunts goblinoids in and around the Chitterwood.
+- [[Brakknap]] - Goblin elder working to repair relations between goblinoids and humanoids.
+- [[Bulbhead tribe]] - Gourd-helmeted goblins of the Burnt Ends who trade with outsiders and feud with the [[Isgeri Slayers]].
+- [[Cinder Seekers]] - Goblin movement dedicated to preventing future hobgoblin domination through memory, song, and fire.
+- [[Hookback tribe]] - Deep-cavern goblins whose piercings preserve a painful history of survival.
+- [[Mudrub tribe]] - Swamp-dwelling goblins of the eastern Chitterwood who cover themselves in mud and reject written marks.
+- [[People of the Swarm]] - Cavern goblins known for songs and old grudges against hobgoblin commanders.
+- [[Spine Threshers]] - Martial goblin tribe associated with mounted training in the Barking Caverns.
+- [[True Hoard tribe]] - Scavengers, trap makers, alchemists, and inventors who prize anything useful, shiny, or strange.
+- [[Isgeri Slayers]] - Anti-goblin faction that hunts goblinoids in and around the Chitterwood.
 
 ## Key Locations
 
-- [[Barking Caverns]]: Expansive cave system used by the Spine Threshers to run, ride, race, and train mounts.
-- [[Big Fire]]: Bonfire deep in the woods tended by the Cinder Seekers and treated by them as sacred.
-- [[Burnt Ends]]: Recovering forest edge where the Bulbhead tribe farms gourds and vegetables in once-charred soil.
-- [[Frog Bog]]: Swampy eastern Chitterwood claimed by the Mudrub tribe and known for its frogs.
-- [[Goldenmouth]]: Rumored lost hoard of the dragon [[Jurinex]], supposedly hidden after fire destroyed the landmarks to it.
-- [[Logas]]: Former capital and riverside city near the forest.
-- [[Gillamoor]]: Settlement on the forest's edge that survived goblin attacks before falling to undeath.
-- [[Shrieking Caverns]]: Cave system of the People of the Swarm, named for its huge bat colonies.
-- [[Stagfall Caves]]: Ancient caves containing a dormant nexus of primal power.
-- [[Stumpfield]]: Artist colony near the woods with both goblinoid and non-goblinoid residents.
-- [[Sunless Tunnels]]: Ore-rich southern caves of the Hookback tribe, with deeper tunnels avoided even by the goblins.
-- [[Umok]]: Gnome village shaped by past conflict with fire-loving goblins from the Chitterwood.
+- [[Barking Caverns]] - Expansive cave system used by the Spine Threshers to run, ride, race, and train mounts.
+- [[Big Fire]] - Bonfire deep in the woods tended by the Cinder Seekers and treated by them as sacred.
+- [[Burnt Ends]] - Recovering forest edge where the Bulbhead tribe farms gourds and vegetables in once-charred soil.
+- [[Frog Bog]] - Swampy eastern Chitterwood claimed by the Mudrub tribe and known for its frogs.
+- [[Goldenmouth]] - Rumored lost hoard of the dragon [[Jurinex]], supposedly hidden after fire destroyed the landmarks to it.
+- [[Logas]] - Former capital and riverside city near the forest.
+- [[Gillamoor]] - Settlement on the forest's edge that survived goblin attacks before falling to undeath.
+- [[Shrieking Caverns]] - Cave system of the People of the Swarm, named for its huge bat colonies.
+- [[Stagfall Caves]] - Ancient caves containing a dormant nexus of primal power.
+- [[Stumpfield]] - Artist colony near the woods with both goblinoid and non-goblinoid residents.
+- [[Sunless Tunnels]] - Ore-rich southern caves of the Hookback tribe, with deeper tunnels avoided even by the goblins.
+- [[Umok]] - Gnome village shaped by past conflict with fire-loving goblins from the Chitterwood.
 
 ```dataviewjs
 await dv.view("Views/tables", { table: "locationNavigation", current: dv.current() })

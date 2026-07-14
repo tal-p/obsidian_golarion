@@ -74,7 +74,7 @@ const profiles = {
     ["Ancestry", "INPUT[text:ancestry]"],
     ["Role", "INPUT[text:role]"],
     ["Level", "INPUT[number:level]"],
-    ["Status", "INPUT[inlineSelect(option(alive), option(dead), option(missing), option(unknown)):status]"],
+    ["Status", "INPUT[inlineSelect(option(alive), option(undead), option(dead), option(missing), option(unknown)):status]"],
     ["Affiliations", "INPUT[inlineList:affiliations]"]
   ],
 
@@ -85,6 +85,14 @@ const profiles = {
     ["Deity", "INPUT[text:deity]"],
     ["Members", "INPUT[text:members]"],
     ["Affiliations", "INPUT[inlineList:affiliations]"]
+  ],
+
+  deity: [
+    ["Titles", "INPUT[inlineList:titles]"],
+    ["Areas of Concern", "INPUT[inlineList:areas_of_concern]"],
+    ["Symbol", "INPUT[text:symbol]"],
+    ["Realm", 'INPUT[suggester(optionQuery("Atlas"), useLinks(true), allowOther(true)):realm]'],
+    ["Worshippers", "INPUT[text:worshippers]"]
   ],
 
   site: [
@@ -123,6 +131,7 @@ const profiles = {
   ],
 
   item: [
+    ["Subtype", "INPUT[inlineSelect(option(artifact), option(divine artifact), option(weapon), option(armor), option(devotional object), option(consumable), option(tool), option(text), option(religious text), option(material), option(vehicle), option(other)):subtype]"],
     ["Level", "INPUT[number:item_level]"],
     ["Rarity", "INPUT[inlineSelect(option(common), option(uncommon), option(rare), option(unique)):rarity]"]
   ],
@@ -135,7 +144,8 @@ const profiles = {
   ],
 
   source: [
-    ["Type", "INPUT[text:source_type]"]
+    ["Type", "INPUT[text:source_type]"],
+    ["URL", "INPUT[text:url]"]
   ],
 
   map: [

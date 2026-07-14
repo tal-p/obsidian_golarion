@@ -1,6 +1,7 @@
 ---
 type: item
 image:
+subtype:
 item_level:
 rarity:
 sources:

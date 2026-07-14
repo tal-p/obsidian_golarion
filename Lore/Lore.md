@@ -1,23 +1,13 @@
 Lore, history, faiths, events, and other campaign reference material.
 
-## New Lore
-
-```button
-name New Event
-type note(New Event, same) template
-action Lore/Event Template
-folder Lore
-prompt true
-templater true
+```dataviewjs
+await dv.view("Views/tables", { table: "allDeities", current: dv.current() })
 ```
 
-## Timelines
+```dataviewjs
+await dv.view("Views/tables", { table: "allEvents", current: dv.current() })
+```
 
-[[Timelines/Isger Timeline|Isger Timeline]]
-
-## Events
-
-```aat-vertical
-events
-dateDisplayFormat: {day}{month}{year} AR
+```dataviewjs
+await dv.view("Views/tables", { table: "allTimelines", current: dv.current() })
 ```

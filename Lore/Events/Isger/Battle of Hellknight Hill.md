@@ -52,7 +52,7 @@ aat-event-title: Andoran Sends the Steel Falcons
 aat-event-body: An emergency People's Council meets in Almas, and Eagle Knights travel to [[Isger]] ahead of the Battle of Hellknight Hill.
 %%
 
-In Arodus 4725 AR, Chelaxian supplies allowed the Order of the Rack to fortify Citadel Altaerein with infernal wards and a conjured diabolical dragon. In Rova 4725 AR, Andoren forces fought through grueling exchanges to retake Breachill and the citadel.
+In Arodus 4725 AR, Chelaxian supplies allowed the Order of the Rack to fortify Citadel Altaerein with infernal wards and summon the diabolic dragon [[Kierothax]]. During the battle, many Hellknights left the citadel in search of direct conflict and fought the allied forces in and around Breachill. Kierothax perched atop the fortress and rained hellfire upon the besiegers, but the allies slew the dragon. In Rova 4725 AR, Andoren forces fought through grueling exchanges to retake Breachill and the citadel.
 
 ## Participants
 
@@ -63,4 +63,6 @@ In Arodus 4725 AR, Chelaxian supplies allowed the Order of the Rack to fortify C
 
 ## Outcome & Legacy
 
-Andoran's forces won, retaking Breachill and Citadel Altaerein. Some Rack Hellknights were taken prisoner, while many others retreated toward [[Cheliax]]. The [[Hellbreakers League]] emerged from nearby mountain caves to negotiate with Andoran, which promised aid in exchange for a powerful warshard taken back to Andoran. The defeat caused troop movements across Isger, including soldiers returning to [[Elidir]], Hellknights gathering in [[Logas]], and [[Wolfpoint]] being left empty.
+Andoran's forces won, retaking Breachill and Citadel Altaerein. Some Rack Hellknights were taken prisoner, while many others retreated southwest toward [[Cheliax]]. Both armies suffered heavy casualties and were too exhausted to pursue the survivors. The victors instead buried the dead in the surrounding fields, treated the wounded, and began repairing Breachill.
+
+The [[Hellbreakers League]] emerged from nearby mountain caves to negotiate with Andoran, which promised aid in exchange for a powerful warshard taken back to Andoran. The defeat caused troop movements across Isger, including soldiers returning to [[Elidir]], Hellknights gathering in [[Logas]], and [[Wolfpoint]] being left empty. [[Hedvend VI]] answered the rebels' growing momentum with [[Hedvend's Bounty on Dissidents]].

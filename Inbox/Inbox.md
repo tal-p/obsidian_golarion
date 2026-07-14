@@ -1,3 +1,5 @@
-Use this for quick capture when a note does not have an obvious home yet.
+Temporary notes awaiting a permanent home in the campaign wiki.
 
-Move durable material into the atlas, maps, lore, characters, organizations, items, or sources areas once its topic is clear.
+```dataviewjs
+await dv.view("Views/tables", { table: "allInbox", current: dv.current() })
+```

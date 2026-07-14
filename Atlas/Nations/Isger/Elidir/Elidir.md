@@ -1,6 +1,7 @@
 ---
 type: settlement
-image:  [[elidir-local.webp]]
+image:
+  - - elidir-local.webp
 location: "[[Isger]]"
 government: stewardship
 leader: "[[Hedvend VI]]"
@@ -20,7 +21,7 @@ threats:
   - political unrest
   - trade blockades
   - undead
-map:
+map: "[[elidir_map.webp]]"
 sources:
   - "[[Hellbreakers]]"
 tags:
@@ -109,39 +110,39 @@ Charity events are common but often serve more as elite social occasions than me
 
 ## Key Figures and Factions
 
-- [[Hedvend VI]]: Chelaxian-appointed steward whose focus on trade and the capital has made him widely hated.
-- [[Trade Office]]: Bureaucratic arm that controls docks, taxes, tariffs, warehouses, caravanserai, and labor.
-- [[Isgeri Army]]: Military force concentrated around Elidir and the Conerica Straits.
-- [[Adasely Tisandera]]: Ambitious caravanserai operator seeking to dominate that market.
-- [[Cygnetus Frawn]]: Fashion leader and subtle Chelaxian loyalist among Elidir's elite.
-- [[Dwingini Berylbelt]]: Archbanker of Abadar who privately believes Elidir's dominance strangles Isger's wider prosperity.
-- [[Luminia Bell]]: Popular chef and secret leader of Urgathoa's followers in Isger.
-- [[Queen of Conerica]]: Mysterious pirate captain raiding merchant ships on the Conerica.
-- [[Sevizoy]]: Former assassin and leader of Nocticula's reformed faithful in Elidir.
-- [[Mistress Erity]]: Assassin who controls [[Sweet Embrace]] and opposes Nocticula's Redeemer Queen faithful.
+- [[Hedvend VI]] - Chelaxian-appointed steward whose focus on trade and the capital has made him widely hated.
+- [[Trade Office]] - Bureaucratic arm that controls docks, taxes, tariffs, warehouses, caravanserai, and labor.
+- [[Isgeri Army]] - Military force concentrated around Elidir and the [[Conerica Straits]].
+- [[Adasely Tisandera]] - Ambitious caravanserai operator seeking to dominate that market.
+- [[Cygnetus Frawn]] - Fashion leader and subtle Chelaxian loyalist among Elidir's elite.
+- [[Dwingini Berylbelt]] - Archbanker of Abadar who privately believes Elidir's dominance strangles Isger's wider prosperity.
+- [[Luminia Bell]] - Popular chef and secret leader of Urgathoa's followers in Isger.
+- [[Queen of Conerica]] - Mysterious pirate captain raiding merchant ships on the Conerica.
+- [[Sevizoy]] - Former assassin and leader of Nocticula's reformed faithful in Elidir.
+- [[Mistress Erity]] - Assassin who controls [[Sweet Embrace]] and opposes Nocticula's Redeemer Queen faithful.
 
 ## Key Locations
 
-- [[Chelaxian Quarter]]: Walled district also called the Devils' Court, centered on the Thrune embassy and wealthy Chelaxian expatriates.
-- [[Conerica Landing]]: Heavily guarded docks and warehouses that form the heart of Elidir's trade.
-- *Trade House*: Sprawling tax and customs office near the docks, notorious for corruption.
-- [[Isger's Fist]]: Fortress complex of the Isgeri military, including command operations, barracks, stables, and other army infrastructure.
-- [[Kingsthrone Cathedral]]: Five-towered Asmodean cathedral built at Thrune command and attended largely from fear.
-- [[Xerlidia Park]]: Ancient pact-protected park containing the Isgeri Circle and Memorial to Lost Soldiers.
-- [[Sweet Embrace]]: Old temple of Nocticula and assassin guild now controlled by Mistress Erity.
-- *New Dream Designs*: Tattoo shop and secret shrine of Sevizoy's Redeemer Queen congregation.
-- *Gyve and Moil*: City prison and attached labor camp for debtors, political prisoners, criminals, and minor offenders.
-- *Coffer Hall*: Low-key temple of Abadar, weakened by Urgathoan maneuvering against its most capable clergy.
-- *Druma Road Gate and Grand Cheliax Gate*: The city's major eastern and western trade gates, the latter guarded beneath carved nessari devil statues.
-- *Hedvend Park*: Steward-named park renovated by Hedvend VI with a fountain of Abrogail Thrune II and imported animals.
-- *Iron Strop*: Former Gorumite veterans' home whose caretakers and patients became nihilistic after Gorum's death.
-- *Home to Kazhlik*: Two-thousand-year-old dwarven tavern known for Five Kings Mountains fare.
-- *Myrogy's Menagerie*: Fading creature showcase whose owner seeks dangerous new attractions.
-- *Night Market*: Market outside the Druma Road Gate where daytime trade gives way to stolen cargo after dark.
-- *Rampways*: Roads around Elidir used by traders and the army, but vulnerable to bandits from the hills.
-- *Spellbinder's Stage*: Minimalist theater whose subversive owner may stage the infamous play _Abrogail I_.
-- *Succubus's Sash*: Boutique selling devil-themed fashion and late-arriving Egorian trends.
-- *White Stag Inn*: Busy riverside inn where dock workers, merchants, and stevedores seek work and workers.
+- [[Chelaxian Quarter]] - Walled district also called the Devils' Court, centered on the Thrune embassy and wealthy Chelaxian expatriates.
+- [[Conerica Landing]] - Heavily guarded docks and warehouses that form the heart of Elidir's trade.
+- [[Trade House]] - Sprawling tax and customs office near the docks, notorious for corruption.
+- [[Isger's Fist]] - Fortress complex of the Isgeri military, including command operations, barracks, stables, and other army infrastructure.
+- [[Kingsthrone Cathedral]] - Five-towered Asmodean cathedral built at Thrune command and attended largely from fear.
+- [[Xerlidia Park]] - Ancient pact-protected park containing the [[Isgeri Circle]] and [[Memorial to Lost Soldiers]].
+- [[Sweet Embrace]] - Old temple of Nocticula and assassin guild now controlled by [[Mistress Erity]].
+- [[New Dream Designs]] - Tattoo shop and secret shrine of [[Sevizoy]]'s Redeemer Queen congregation.
+- [[Gyve and Moil]] - City prison and attached labor camp for debtors, political prisoners, criminals, and minor offenders.
+- [[Coffer Hall]] - Low-key temple of Abadar, weakened by Urgathoan maneuvering against its most capable clergy.
+- [[Druma Road Gate]] and [[Grand Cheliax Gate]] - The city's major eastern and western trade gates, the latter guarded beneath carved nessari devil statues.
+- [[Hedvend Park]] - Steward-named park renovated by [[Hedvend VI]] with a fountain of [[Abrogail Thrune II]] and imported animals.
+- [[Iron Strop]] - Former Gorumite veterans' home whose caretakers and patients became nihilistic after Gorum's death.
+- [[Home to Kazhlik]] - Two-thousand-year-old dwarven tavern known for Five Kings Mountains fare.
+- [[Myrogy's Menagerie]] - Fading creature showcase whose owner seeks dangerous new attractions.
+- [[Night Market]] - Market outside the [[Druma Road Gate]] where daytime trade gives way to stolen cargo after dark.
+- [[Rampways]] - Roads around Elidir used by traders and the army, but vulnerable to bandits from the hills.
+- [[Spellbinder's Stage]] - Minimalist theater whose subversive owner may stage the infamous play _Abrogail I_.
+- [[Succubus's Sash]] - Boutique selling devil-themed fashion and late-arriving Egorian trends.
+- [[White Stag Inn]] - Busy riverside inn where dock workers, merchants, and stevedores seek work and workers.
 
 ```dataviewjs
 await dv.view("Views/tables", { table: "locationNavigation", current: dv.current() })

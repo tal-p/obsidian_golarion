@@ -6,6 +6,8 @@ aliases:
 status: draft
 ---
 
+TODO: Turn this into a full note + map.
+
 # `= this.file.name`
 
 ```zoommap

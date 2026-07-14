@@ -1,6 +1,7 @@
 ---
 type: source
 source_type:
+url:
 tags:
   - source
 ---

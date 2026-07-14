@@ -1,0 +1,33 @@
+{
+  "size": {
+    "w": 6000,
+    "h": 4200
+  },
+  "layers": [
+    {
+      "id": "default",
+      "name": "Default",
+      "visible": true,
+      "locked": false
+    }
+  ],
+  "markers": [],
+  "bases": [
+    "Assets/Maps/saringallow_map.webp"
+  ],
+  "overlays": [],
+  "activeBase": "Assets/Maps/saringallow_map.webp",
+  "measurement": {
+    "scales": {},
+    "customUnitPxPerUnit": {},
+    "travelTimePresetIds": [],
+    "travelDaysEnabled": false
+  },
+  "pinSizeOverrides": {},
+  "grids": [],
+  "panClamp": true,
+  "drawLayers": [],
+  "drawings": [],
+  "secondScreen": {},
+  "textLayers": []
+}

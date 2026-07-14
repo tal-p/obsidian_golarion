@@ -2,7 +2,7 @@
 type: site
 image:
 subtype:
-parent: "[[<% (() => { const parts = tp.file.folder(true).split('/'); const folder = parts[parts.length - 1]; return folder === tp.file.title ? parts[parts.length - 2] : folder; })() %>]]"
+parent:
 leader:
 sources:
 tags:

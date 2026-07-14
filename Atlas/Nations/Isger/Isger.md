@@ -115,31 +115,33 @@ The [[Godsrain]] emboldened Isgeri rebels by proving that even divine powers can
 
 After the Godsrain, Isgeri officials suspected the Hellbreakers were hiding warshards in [[Breachill]] or nearby [[Citadel Altaerein]]. Cheliax sent [[Order of the Rack]] Hellknights to root out the Hellbreakers and reclaim any warshards they found. Their occupation and execution of Andoren envoy Reginald Cormoth escalated into the [[Battle of Hellknight Hill]], a clash some consider the first shot in a possible Cheliax-Andoran war.
 
-As of Rova 4725 AR, Breachill and Citadel Altaerein have been retaken by Andoren forces, surviving Order of the Rack Hellknights are prisoners or retreating toward Cheliax, and the Hellbreakers have emerged from nearby mountain caves to negotiate with Andoran.
+Breachill and Citadel Altaerein were retaken by Andoren forces, surviving Order of the Rack Hellknights were imprisoned or driven toward Cheliax, and the Hellbreakers emerged from nearby mountain caves to negotiate with Andoran.
+
+Hedvend answered the League's growing momentum with [[Hedvend's Bounty on Dissidents]], a deliberately vague reward for identifying or capturing "dissenters and revolutionaries." The decree encouraged private accusations, vigilantism, and loyalist attacks across the country.
 
 ## Key Figures and Factions
 
-- [[Hedvend VI]]: Chelaxian-appointed steward of Isger, widely seen as loyal to Cheliax and negligent toward the countryside.
-- [[Hellbreakers League]]: Rebel organization seeking to free Isger from Chelaxian rule.
-- [[Isgeri Army]]: Undersupported volunteer army charged with protecting Isger's routes and borders.
-- [[Sisterhood of the Golden Erinys]]: Asmodean charitable order that runs orphanages and shapes rural loyalties.
-- [[Illcayna Alonnor]]: Daughter of Urgathoa building undead power from [[Finder's Gulch]].
-- [[Lady Kaltessa Iyis]]: Priestess of Mammon who watches Isger from the [[Iron Rose]].
-- [[Mama Grimclaw]]: Iron hag who kidnaps children and hides them in [[Good Home]].
-- [[Isgeri Slayers]]: Anti-goblin faction led by Varskand Gilwrad.
+- [[Hedvend VI]] - Chelaxian-appointed steward of Isger, widely seen as loyal to Cheliax and negligent toward the countryside.
+- [[Hellbreakers League]] - Rebel organization seeking to free Isger from Chelaxian rule.
+- [[Isgeri Army]] - Undersupported volunteer army charged with protecting Isger's routes and borders.
+- [[Sisterhood of the Golden Erinys]] - Asmodean charitable order that runs orphanages and shapes rural loyalties.
+- [[Illcayna Alonnor]] - Daughter of Urgathoa building undead power from [[Finder's Gulch]].
+- [[Lady Kaltessa Iyis]] - Priestess of Mammon who watches Isger from the [[Iron Rose]].
+- [[Mama Grimclaw]] - Iron hag who kidnaps children and hides them in [[Good Home]].
+- [[Isgeri Slayers]] - Anti-goblin faction led by [[Varskand Gilwrad]].
 
 ## Key Locations
 
-- [[Elidir]]: Capital city and trade hub at the Summerun and North Conerica rivers.
-- [[Chitterwood]]: Goblin-haunted forest scarred by the Goblinblood Wars.
-- [[Breachill]]: Small town recently occupied by Hellknights and tied to the Battle of Hellknight Hill.
-- [[Citadel Altaerein]]: Former Order of the Nail fortress near Breachill whose ownership remains uncertain.
-- [[Citadel Dinyar]]: Headquarters of the [[Order of the Godclaw]] in the Aspodell Mountains.
-- [[Saringallow]]: Rebellious city with deep resentment toward Chelaxian nobility.
-- [[Logas]]: Former capital still marked by siege and anti-goblin distrust.
-- [[Finder's Gulch]]: Haunted quarry town claimed by [[Illcayna Alonnor]].
-- [[Good Home]]: Hidden town controlled by [[Mama Grimclaw]].
-- [[Iron Rose]]: Devil-built fortress of [[Lady Kaltessa Iyis]].
+- [[Elidir]] - Capital city and trade hub at the [[Summerun River|Summerun]] and [[North Conerica River|North Conerica]] rivers.
+- [[Chitterwood]] - Goblin-haunted forest scarred by the Goblinblood Wars.
+- [[Breachill]] - Small town recently occupied by Hellknights and tied to the Battle of Hellknight Hill.
+- [[Citadel Altaerein]] - Former Order of the Nail fortress near Breachill whose ownership remains uncertain.
+- [[Citadel Dinyar]] - Headquarters of the [[Order of the Godclaw]] in the [[Aspodell Mountains]].
+- [[Saringallow]] - Rebellious city with deep resentment toward Chelaxian nobility.
+- [[Logas]] - Former capital still marked by siege and anti-goblin distrust.
+- [[Finder's Gulch]] - Haunted quarry town claimed by [[Illcayna Alonnor]].
+- [[Good Home]] - Hidden town controlled by [[Mama Grimclaw]].
+- [[Iron Rose]] - Devil-built fortress of [[Lady Kaltessa Iyis]].
 
 ```dataviewjs
 await dv.view("Views/tables", { table: "locationNavigation", current: dv.current() })

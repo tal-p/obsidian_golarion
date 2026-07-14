@@ -7,7 +7,7 @@ gender: female
 ancestry: daughter of Urgathoa
 role: Wight Mother
 level: 9
-status: alive
+status: undead
 affiliations: []
 sources:
   - "[[Hellbreakers]]"

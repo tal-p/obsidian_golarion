@@ -91,11 +91,13 @@ const characterRows = (pages) => pages.map((page) => [
   page.gender,
   page.ancestry,
   page.role,
-  page.level
+  page.level,
+  page.location
 ]);
 
 const organizationRows = (pages) => pages.map((page) => [
   page.file.link,
+  page.subtype,
   leaders(page),
   page.location
 ]);
@@ -215,12 +217,66 @@ const groupPresets = {
 };
 
 const renderers = {
+  async allInbox() {
+    const pages = dv.pages('"Inbox"')
+      .where((page) => isRealPage(page) && notCurrent(page))
+      .sort((page) => page.file.name, "asc");
+
+    dv.table(["Note"], pages.map((page) => [page.file.link]));
+  },
+
   async allCharacters() {
     const pages = pagesOfType("character");
 
     dv.table(
-      ["Character", "Descriptor", "Gender", "Ancestry", "Role", "Level"],
+      ["Character", "Descriptor", "Gender", "Ancestry", "Role", "Level", "Location"],
       characterRows(pages)
+    );
+  },
+
+  async allItems() {
+    const pages = pagesOfType("item")
+      .sort((page) => page.item_level ?? Number.MAX_SAFE_INTEGER, "asc");
+
+    dv.table(
+      ["Item", "Subtype", "Level", "Rarity"],
+      pages.map((page) => [page.file.link, page.subtype, page.item_level, page.rarity])
+    );
+  },
+
+  async allEvents() {
+    const pages = pagesOfType("event");
+
+    dv.table(
+      ["Event", "Date", "Location"],
+      eventRows(pages)
+    );
+  },
+
+  async allDeities() {
+    const pages = pagesOfType("deity");
+
+    dv.table(
+      ["Deity", "Titles", "Areas of Concern"],
+      pages.map((page) => [page.file.link, page.titles, page.areas_of_concern])
+    );
+  },
+
+  async allTimelines() {
+    const pages = pagesOfType("timeline");
+
+    dv.table(
+      ["Timeline", "Timeline Slugs"],
+      pages.map((page) => [page.file.link, page.timelines])
+    );
+  },
+
+  async allNations() {
+    const pages = pagesOfType("nation");
+
+    dv.table(
+      ["Nation", "Capital", "Government", "Leader"],
+      pages.map((page) => [page.file.link, page.capital, page.government, page.leader])
     );
   },
 
@@ -228,8 +284,17 @@ const renderers = {
     const pages = pagesOfType("organization");
 
     dv.table(
-      ["Organization", "Leaders", "Location"],
+      ["Organization", "Subtype", "Leaders", "Location"],
       organizationRows(pages)
+    );
+  },
+
+  async allSources() {
+    const pages = pagesOfType("source");
+
+    dv.table(
+      ["Source", "Type"],
+      pages.map((page) => [page.file.link, page.source_type])
     );
   },
 
@@ -259,6 +324,44 @@ const renderers = {
     await renderGroups([
       groupPresets.peopleAndPowers({ title: "Affiliations", mode: "affiliations" }),
       groupPresets.events({ mode: "participant" })
+    ]);
+  },
+
+  async deityNavigation() {
+    const characters = pagesOfType("character")
+      .where((page) => containsLinkOrName(page.affiliations, current.file.link, current.file.name));
+    const organizations = pagesOfType("organization")
+      .where((page) =>
+        containsLinkOrName(page.deity, current.file.link, current.file.name) ||
+        containsLinkOrName(page.affiliations, current.file.link, current.file.name)
+      );
+    const locations = dv.pages()
+      .where((page) =>
+        isRealPage(page) &&
+        isLocation(page) &&
+        (
+          containsLinkOrName(page.religions, current.file.link, current.file.name) ||
+          linksToCurrent(page)
+        )
+      )
+      .sort((page) => page.file.name, "asc");
+
+    await renderGroups([
+      {
+        title: "Figures & Followers",
+        headers: ["Character", "Role", "Location"],
+        rows: characters.map((page) => [page.file.link, page.role ?? page.descriptor, page.location])
+      },
+      {
+        title: "Dedicated Organizations",
+        headers: ["Organization", "Type", "Location"],
+        rows: organizations.map((page) => [page.file.link, page.subtype, page.location])
+      },
+      {
+        title: "Relevant Locations",
+        headers: ["Location", "Type", "Parent"],
+        rows: locations.map((page) => [page.file.link, formatType(page.type), page.parent ?? page.location])
+      }
     ]);
   },
 

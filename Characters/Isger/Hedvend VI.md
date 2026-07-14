@@ -37,6 +37,8 @@ Chelaxian nobles increasingly believe Isger should be in more capable hands, and
 
 In Abadius 4725 AR, at Hedvend's request, Abrogail Thrune II sent loyalist [[Order of the Rack]] Hellknights to Breachill to root out treason and recover any warshards they found. Their later defeat at [[Citadel Altaerein]] has led his allies to urge bolder action.
 
+Hedvend subsequently issued [[Hedvend's Bounty on Dissidents]], offering payment for information about vaguely defined "dissenters and revolutionaries." By outsourcing enforcement to loyalists and private informants, he encouraged vigilantism, personal accusations, and attacks on suspected members of the [[Hellbreakers League]].
+
 The [[Battle of Hellknight Hill]] has also strengthened calls for Hedvend to step down after the death of a foreign diplomat, especially among rebellious youths in the capital.
 
 ## Ambitions & Influence
